@@ -99,9 +99,9 @@ The project uses a single SQLite database (`fakenews.db`) containing:
 ---
 
 ## Authors
-Alex McAnnally, Kyle Govender, Craig Runnels
+#### Alex McAnnally, Kyle Govender, Craig Runnels
 
-This project was developed as part of the Advanced Business Analytics coursework at the University of Alabama at Birmingham.
+###### This project was developed as part of the Advanced Business Analytics coursework at the University of Alabama at Birmingham.
 ---
 
 ## License
