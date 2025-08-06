@@ -107,7 +107,8 @@ The project uses a single SQLite database (`fakenews.db`) containing:
 ## Future Plans
 
 As this project continues to evolve beyond the classroom, the following enhancements and features are planned for future development:
-Dockerization
+
+### Dockerization
 
    Package the entire project in a Docker container to ensure consistent environment setup, simplify deployment, and streamline collaboration.
 
