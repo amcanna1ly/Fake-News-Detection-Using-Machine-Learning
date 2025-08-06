@@ -104,6 +104,47 @@ The project uses a single SQLite database (`fakenews.db`) containing:
 ###### This project was developed as part of the Advanced Business Analytics coursework at the University of Alabama at Birmingham.
 ---
 
+## Future Plans
+
+As this project continues to evolve beyond the classroom, the following enhancements and features are planned for future development:
+Dockerization
+
+    Package the entire project in a Docker container to ensure consistent environment setup, simplify deployment, and streamline collaboration.
+
+    Create a docker-compose configuration to separate model serving logic from the front-end UI, enabling modular architecture and easier maintenance.
+
+### Front-End Interface
+
+    Develop a user-friendly graphical interface using Flask, Streamlit, or a similar framework to allow users to input articles or headlines and receive real-time predictions.
+
+    Include visualization features to show confidence scores, model explanations (e.g., feature importance), and prediction history.
+
+### Model Improvements
+
+    Experiment with more advanced NLP techniques, such as transformer-based models (e.g., BERT, RoBERTa) to improve classification accuracy and robustness.
+
+    Fine-tune hyperparameters and expand the training dataset to better generalize across diverse sources and writing styles.
+
+### API Development
+
+    Expose a RESTful or GraphQL API to allow external applications to programmatically interact with the fake news detection model.
+
+    Implement rate-limiting, logging, and authentication for security and monitoring.
+
+### Logging and Feedback
+
+    Add backend logging of prediction requests (with user consent) for performance analysis and retraining.
+
+    Introduce optional user feedback mechanisms to flag incorrect predictions and continuously improve model performance.
+
+### Deployment
+
+    Deploy the app on a cloud platform (e.g., Heroku, AWS, or Render) for public access and demonstration purposes.
+
+    Enable HTTPS support and basic user session management if needed for persistent usage or feedback tracking.
+
+---
+
 ## License
    MIT License
    
